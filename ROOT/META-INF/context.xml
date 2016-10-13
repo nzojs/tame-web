@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource auth="Container"
+	    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+	    type="javax.sql.DataSource"
+	    factory="com.zaxxer.hikari.HikariJNDIFactory"
+	    jdbcUrl="jdbc:sqlserver://192.168.0.19:1433;DatabaseName=NZOTest"
+	    maximumPoolSize="10"
+	    connectionTestQuery="SELECT 1"
+	    name="NZOTest" 
+	    username="test"
+	    password="poiu0987poiu0987" 
+	    whenExhaustedAction="0" />
+	    
+</Context>
